@@ -1,0 +1,45 @@
+/*
+p {
+  color: #ff0000;
+  background-color: #0000ff;
+}
+*/
+h1 {
+  color: #FFFFFF;
+  background-color: #80cbb3;
+}
+
+a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+.spanstyle {
+  color: #00ff00;
+}
+
+#divexample {
+  color: blue;
+  background-color: yellow;
+}
+
+#specialid {
+  color: #00ff00;
+  background-color: #000000;
+}
+
+.specialp {
+  color: #00ff00;
+  background-color: #ffffff;
+}
+
+footer {
+  color: #ffffff;
+  background-color: #ff0000;
+}
+
