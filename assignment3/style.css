@@ -1,0 +1,60 @@
+* {
+  background-color: black;
+}
+
+header {
+  color: white;
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+}
+
+a {
+  color: #990029;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
+
+li {
+  display: inline;
+}
+
+main {
+  color: white;
+}
+
+h1 {
+  color: #990029;
+}
+
+h2 {
+  color: #43423f;
+}
+
+h3 {
+  color: #64645e;
+}
+
+h4 {
+  color: #86857e;
+}
+
+.spanstyle {
+  color: #990029;
+}
+
+#italics {
+  color: #990029;
+  font-family: arial;
+  font-size: 20px;
+}
