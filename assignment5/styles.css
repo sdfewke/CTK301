@@ -1,0 +1,74 @@
+body {
+  background-color: #fcd12a;
+  background-image: url(Lakeith.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 35px;
+  background-position-y: 35px;
+}
+
+.top {
+  color: purple;
+  font-family: impact;
+  padding: 10px;
+  border-bottom: 5px solid;
+  letter-spacing: 3px;
+  width: 650px;
+}
+
+.boots {
+  font-size: 30px;
+}
+
+h1 {
+  font-family: impact;
+  color: red;
+  font-size: 130px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 700px;
+  height: 720px;
+  line-height: 120px;
+}
+
+.bother {
+  color: violet;
+}
+
+.roles {
+  font-family: impact;
+  color: purple;
+  font-size: 25px;
+  width: 650px;
+  text-align: left;
+  border-bottom: 5px solid;
+  word-spacing: 5px;
+  height: 160px;
+}
+
+.red {
+  color: red;
+  font-size: 30px;
+}
+
+.violet {
+  color: violet;
+  font-size: 30px;
+}
+
+.bottom {
+  font-family: impact;
+  color: violet;
+  text-align: center;
+  width: 600px;
+}
+
+a {
+  color:  violet;
+  text-decoration: none;
+}
+
+img {
+  position: relative;
+  left: 200px;
+}
