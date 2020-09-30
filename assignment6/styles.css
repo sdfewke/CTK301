@@ -1,0 +1,102 @@
+body {
+  background-image: url(a62.png);
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 100px auto 75px;
+  background-color: white;
+  border: solid;
+  margin: 1em auto;
+  width: 960px;
+}
+
+header {
+  grid-column: span 12;
+  background-color: black;
+  color: white;
+  font-family: helvetica;
+  padding-left: 20px;
+  font-weight: normal;
+  margin: 15px;
+}
+
+nav {
+  grid-column: span 3;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+nav li {
+  margin: 15px;
+  width: 200px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 15px;
+  background-color: red;
+  font-family: helvetica;
+}
+
+nav a:hover {
+  background-color: darkred;
+}
+
+h2 {
+  border-bottom: 3px solid;
+  font-family: helvetica;
+  margin-right: 10px;
+}
+
+img {
+  border: solid;
+  padding: 10px;
+  float: left;
+  margin-right: 15px;
+}
+
+#bold {
+  text-align: justify;
+  font-family: georgia;
+  font-weight: bold;
+}
+
+main {
+  grid-column: span 9;
+  margin: 0;
+}
+
+main a {
+  color: red;
+  text-decoration: none;
+}
+
+main a:hover {
+  color:  blue;
+  text-decoration: underline;
+}
+
+p {
+  margin-right: 10px;
+}
+
+footer {
+  grid-column: span 12;
+  border-top: solid 3px black;
+  background-color: red;
+  color: white;
+  font-family: verdana;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-style: italic;
+}
