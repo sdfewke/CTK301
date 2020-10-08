@@ -1,0 +1,118 @@
+body {
+  width: 920px;
+  margin: 1em autoauto;
+}
+
+#wrapper {
+  border: solid royalblue 5px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  height: 110px;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0;
+}
+
+h1 a {
+  color: lightblue;
+  padding: 30px;
+  text-decoration: none;
+  font-family: helvetica;
+  font-style: italic;
+  font-weight: normal;
+}
+
+h1 a:hover {
+  color: white;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+nav li {
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  list-style: none;
+  display: inline;
+  padding: 10px 40px 10px 40px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: lightblue;
+  font-family: helvetica;
+  font-weight: bold;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+}
+
+nav a:hover {
+  color: white;
+}
+
+h2 {
+  color: royalblue;
+  border-bottom: solid;
+}
+
+.fp {
+  font-weight: bold;
+}
+
+#content {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+
+.house {
+  border: solid royalblue;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.acedemy {
+  border: solid royalblue;
+  float: right;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.luther {
+  border: solid royalblue;
+  margin-right: 12px;
+}
+
+.Allison {
+  border: solid royalblue;
+}
+
+.Diego {
+  border: solid royalblue;
+  margin-left: 12px;
+}
+
+#p {
+  margin: 15px;
+}
+
+.red {
+  color: red;
+}
+
+footer {
+  background-color: red;
+  padding: 15px;
+  border-bottom: solid royalblue 5px;
+  border-right: solid royalblue 5px;
+  border-left: solid royalblue 5px;
+}
