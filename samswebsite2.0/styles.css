@@ -1,0 +1,109 @@
+body {
+  background-color: #999999;
+  background-color: #0c0c0c;
+}
+
+#wrapper {
+  margin: auto;
+  width: 1200px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  background-color: black;
+}
+
+header{
+  grid-column: span 12;
+  font-family: 'Permanent Marker', cursive;
+  color: red;
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom:  20px;
+  font-size: 26px;
+}
+
+nav {
+  grid-column: span 12;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 1200px;
+  top:0;
+  margin: auto;
+  border-bottom: hidden;
+  border-bottom-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+nav ul {
+
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  font-family: 'Permanent Marker', cursive;
+  padding:  70px;
+  font-size: 20px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: color .5s;
+}
+
+nav li a:hover {
+  color: red;
+}
+
+nav li a:selected {
+  color: red;
+  text-decoration: underline;
+}
+
+main {
+  grid-column: span 12;
+}
+
+footer{
+  grid-column: span 12;
+  color: red;
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+span {
+  color: white;
+}
+
+#bigger {
+  width: 1200px;
+}
+
+.fa-instagram {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.fa-twitter {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.fa-tiktok {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+}
+
+iframe {
+  width: 1200px;
+  height: 700px;
+}
+
